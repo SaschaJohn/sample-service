@@ -99,6 +99,15 @@ spec:
 
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: sample2-domain
+  description: Sample2 domain which has stuff for demoing.
+spec:
+  owner: group:roadiehq/engineering
+
+---
+apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   title: Sample System
